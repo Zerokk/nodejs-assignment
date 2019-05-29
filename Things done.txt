@@ -1,0 +1,40 @@
+1. Even though I know that programming in a Linux environment is better, I'm quite used to my Windows environment. I could switch to an Ubuntu distro and do it from there, but I chose to stick with Windows to add an extra bit of difficulty, as I see that this is initially thought to be done in UNIX systems. This made me modify the bash script to .bat and call it from package.json without the "sh" command. This correctly enables the NATS script to work in Windows.
+
+
+QUESTION Nº1:
+
+	// =========================
+	// Question Point 1:
+	// What's the difference betweeen fs.createReadStream, fs.readFileSync, and fs.readFileAsync?
+	// And when to use one or the others
+	// =========================
+
+The first creates a stream of data, which differs from the rest in the way that the data is read and sent. It reads the data in chunks, and when a chunk has been stored in memory, it's immediately sent through the stream, instead of having to load the whole file in order to send it (as the other two do). Between the -sync and -async methods of file reading, the big difference is whether they block the execution while the read is being performed, or not. Per example, readFileSync can be nice if you have to read a small file and don't have to perform any extra tasks, while readFileAsync can be run while doing another things, attaching a function that will be fired when the promise is fulfilled (the file has been read).
+
+
+
+QUESTION Nº2:
+	// =========================
+	// Question Point 2:
+	// What would happend if it failed to publish to nats or connection to nats is slow?
+	// Maybe you can try to emulate those slow connection
+	// =========================
+
+I guess the data would be lost if the packets don't reach the server, though the NATS server (as far as I could research) does persist the messages if they get into it. So a way of fixing this would be to trace whether the packets are correctly received or not, and try to re-send the ones that did not arrive.
+
+
+
+2. After installing Docker in Windows and downloading the Mongo image, I mounted a working docker with the MongoDB image and accessed to it:
+
+>> docker volume create --name=mongodata
+>> docker run --name mongodb -v mongodata:/data/db -d -p 27017:27017 mongo
+>> docker exec -it mongodb bash
+>> mongo
+>> use storage     (storage will be the name of the database)
+>> db.createUser({user:"viriciti_storage_admin", pwd:"testing_pw", roles:[{role:"readWrite", db: "storage"}]});
+>> docker stop mongodb
+>> docker rm mongodb
+>> docker run --name mongodb -v mongodata:/data/db -d -p 27017:27017 mongo --auth
+
+
+

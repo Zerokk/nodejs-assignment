@@ -33,6 +33,13 @@ const readOutLoud = (vehicleName) => {
 	// And when to use one or the others
 	// =========================
 
+	/*
+	The first creates a stream of data, which differs from the rest in the way that the data is read and sent. It reads the data in chunks, and when a chunk has been stored in memory,
+    it's immediately sent through the stream, instead of having to load the whole file in order to send it (as the other two do). Between the -sync and -async methods of file reading,
+    the big difference is whether they block the execution while the read is being performed, or not. Per example, readFileSync can be nice if you have to read a small file and don't have to
+	perform any extra tasks, while readFileAsync can be run while doing another things, attaching a function that will be fired when the promise is fulfilled (the file has been read).
+	*/
+
 	// Now comes the interesting part,
 	// Handling this filestream requires us to create pipeline that will transform the raw string
 	// to object and sent out to nats
@@ -72,6 +79,12 @@ const readOutLoud = (vehicleName) => {
 	// What would happend if it failed to publish to nats or connection to nats is slow?
 	// Maybe you can try to emulate those slow connection
 	// =========================
+	/*
+
+		I guess the data would be lost if the packets don't reach the server. So a way of fixing this would be to trace whether the packets
+	    are correctly received or not, and try to re-send the ones that did not arrive. 
+
+	*/
 }
 
 // This next few lines simulate Henk's (our favorite driver) shift
