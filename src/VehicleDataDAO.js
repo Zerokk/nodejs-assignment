@@ -12,13 +12,15 @@ class VehicleDataDAO {
 
 
     // Returns all the data for a given vehicle name (which is a collection).
-    async getForVehicle(vehicleName) {
+    async getForVehicle(vehicleName, limit) {
         try {
-            return await this.mongoConnection
+            const query = this.mongoConnection
                 .db("storage")
                 .collection(vehicleName)
                 .find()
-                .toArray();
+                .sort({"time": 1})
+                
+            return limit ? await query.limit(50).toArray() : await query.toArray();;
         } catch (err) {
             log("error", ">> ERROR [VehicleDataDAO] -> getForVehicle() -- mongo error message: ", err)
             return false;
@@ -34,7 +36,7 @@ class VehicleDataDAO {
 
         const vehiclesNames = collections.map(col => col.name);
         return await Promise.all(vehiclesNames.map(async (name) => {
-            const data = await this.getForVehicle(name);
+            const data = await this.getForVehicle(name, true);
             return {
                 vehicleName: name,
                 data: data
@@ -60,11 +62,36 @@ class VehicleDataDAO {
 
     async updateRegistryForVehicle(vehicleName, registryId, data) {
         try {
-
-            // TODO
+            console.log("vehicleName ", vehicleName);
+            console.log("registryId", registryId);
+            await this.mongoConnection
+                .db("storage")
+                .collection(vehicleName)
+                .updateOne({ "_id": registryId },  { $set: {
+                    time: data.time,
+                    energy: data.energy,
+                    gps: data.gps,
+                    odo: data.odo,
+                    speed: data.speed
+                }});
             return true;
         } catch (err) {
-            log("error", ">> ERROR [VehicleDataDAO] -> saveForVehicle() -- mongo error message: ", err)
+            log("error", ">> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: ", err)
+            return false;
+        }
+
+    }
+
+    async removeRegistryForVehicle(vehicleName, registryId) {
+        try {
+
+            await this.mongoConnection
+                .db("storage")
+                .collection(vehicleName)
+                .remove({ _id: registryId });
+            return true;
+        } catch (err) {
+            log("error", ">> ERROR [VehicleDataDAO] -> removeRegistryForVehicle() -- mongo error message: ", err)
             return false;
         }
 
@@ -72,7 +99,7 @@ class VehicleDataDAO {
 
     // Very arcaic and oversimplified method for validating an externally incoming registry of vehicle's activity.
     validate(registry) {
-        if (isNaN(registry._id) &&
+        if (
             !isNaN(registry.time) &&
             registry.gps.indexOf("|") != -1 &&
             !isNaN(registry.odo) &&

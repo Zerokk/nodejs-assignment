@@ -19,20 +19,44 @@ class NatsInterceptor {
 
 
 
-    // Sets all the subscriptions for every given vehicle, and attaches them to the handler.
-    start() {
+    /**
+     * Sets all the subscriptions for every given vehicle, and attaches them to the handler.
+     */
+    interceptSave() {
         this.nats = NATS.connect({ json: true });
         this.dao = new VehicleDataDAO(this.mongoConnection);;
 
         try {
             this.vehicles.forEach(vehicleName => {
                 const id = this.nats.subscribe(this.PREFIX + vehicleName,
-                    (data) => this.handler(vehicleName, data)
+                    (data) => this.saveHandler(vehicleName, data)
                 );
-                log('info', `>> [NatsInterceptor] -> start() -- Subscribed to ${vehicleName} with id ${id}`)
+                log('info', `>> [NatsInterceptor] -> interceptSave() -- Subscribed to ${vehicleName} with id ${id}`)
             });
         }catch(err){
-            log('error', '>> ERROR [NatsInterceptor] -> start() -- Could not connect to NATS; check NATS connection.`')
+            log('error', '>> ERROR [NatsInterceptor] -> interceptSave() -- Could not connect to NATS; check NATS connection.`')
+        }
+    }
+
+    /**
+     * Emits the received stream of data to the socket.io websocket
+     * @param io: Socket.io object to send the data through
+     */
+    interceptEmit(socket){
+        this.nats = NATS.connect({ json: true });
+        this.dao = new VehicleDataDAO(this.mongoConnection);;
+
+        try {
+            this.vehicles.forEach(vehicleName => {
+                const id = this.nats.subscribe(this.PREFIX + vehicleName, 
+                    (data) => socket.emit('datastream', {vehicleName: vehicleName, data: data})
+                );
+                const clientIP = socket.handshake.address;
+                log('info', `>> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle ${vehicleName}, socket id: ${id}, IP: ${clientIP}`);
+            });
+        }catch(err){
+            console.log("err: ", err)
+            log('error', '>> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.', err)
         }
     }
 
@@ -40,7 +64,7 @@ class NatsInterceptor {
 
     // The handler not only tries to save every object, but also takes in account if the data is being correctly saved
     // and tries to retry the errored requests in the case they don't.
-    async handler(vehicleName, data) {
+    async saveHandler(vehicleName, data) {
         const result = await this.dao.saveForVehicle(vehicleName, data);
 
         if (!result) {

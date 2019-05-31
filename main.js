@@ -27,17 +27,11 @@ async function initConnection() {
 
 // If the connection was well set, go forward
 initConnection().then(async (conn) => {
-
     const interceptor = new NatsInterceptor(env.VEHICLE_LIST, conn);
-    interceptor.start();
+  //  interceptor.interceptSave();
 
     // Initialize the API in a child process
     const API_process = fork('./src/API.js');
-
-    /* const VehicleDataDAO = require('./src/VehicleDataDAO').VehicleDataDAO;
-     const dao = new VehicleDataDAO(conn);
-     const results = await dao.getForVehicle('test-bus-1');
-     console.log(results)*/
 
 }).catch(err => {
     log("error", ">> [ERROR] Main Script -> after initConnection() -- error log: ", err);

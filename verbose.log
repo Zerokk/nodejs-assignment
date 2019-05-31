@@ -1,2 +1,523 @@
 info: >> Starting server...
 info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+info: >> Saved 50 requests.
+info: >> Saved 100 requests.
+info: >> Saved 150 requests.
+info: >> Saved 200 requests.
+info: >> Saved 250 requests.
+info: >> Saved 300 requests.
+info: >> Saved 350 requests.
+info: >> Saved 400 requests.
+info: >> Saved 450 requests.
+info: >> Saved 500 requests.
+info: >> Saved 550 requests.
+info: >> Saved 600 requests.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> start() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+verbose: >> Request from ::1 to url /vehicle_data/00000_TESTID.
+error: >> ERROR [VehicleDataDAO] -> getForVehicle() -- mongo error message: 
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptSave() -- Subscribed to test-bus-1 with id 2
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Saved 50 requests.
+info: >> Saved 100 requests.
+info: >> Saved 150 requests.
+info: >> Saved 200 requests.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> Starting server...
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+error: >> ERROR [VehicleDataDAO] -> getForVehicle() -- mongo error message: 
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> Starting server...
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::ffff:127.0.0.1
+verbose: >> Request from ::ffff:127.0.0.1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.
+info: >> [NatsInterceptor] -> interceptEmit() -- Opened socket for vehicle test-bus-1, socket id: 2, IP: ::1
+verbose: >> Request from ::1 to url /vehicle_data.

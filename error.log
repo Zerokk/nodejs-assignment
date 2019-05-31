@@ -10,3 +10,31 @@ error: Could not connect to MongoDB; exiting from the program
 error: Could not connect to MongoDB; exiting from the program
 error: Could not connect to MongoDB; exiting from the program
 error: >> ERROR [Main] -> after initConnection() -- error log: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> updateRegistryForVehicle() -- mongo error message: 
+error: >> ERROR [VehicleDataDAO] -> getForVehicle() -- mongo error message: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> [ERROR] Main Script -> after initConnection() -- error log: 
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.`
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.
+error: >> ERROR [NatsInterceptor] -> interceptEmit() -- Could not connect to NATS; check NATS connection.
+error: >> ERROR [VehicleDataDAO] -> getForVehicle() -- mongo error message: 

@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <script>
+        // Initialize and add the map
+        let selectedVehicle;
+        async function initMap() {
+
+            const socket = io();
+            let map;
+
+            let vehiclesList = await getAPIData();
+            let currentPositions = [];
+
+            console.log("Vehicle List: ", vehiclesList);
+            let lastRegistries = vehiclesList.map(vehicle => {
+                const lastRegistry = { vehicleName: vehicle.vehicleName, data: vehicle.data[vehicle.data.length - 1] };
+                return lastRegistry;
+            });
+            let initialized = false;
+            if (!lastRegistries[0]) {
+                alert("ERROR: There is no data yet, or it can't be accessed from the Web App. Check your data and API connection.")
+            } else {
+                map = new google.maps.Map(document.getElementById('map'), { zoom: 15, center: getCoordinates(lastRegistries[0].data.gps) });
+                console.log("DUMP ", lastRegistries)
+                lastRegistries.forEach(v => trackMarker(map, currentPositions, getCoordinates(v.data.gps), v));
+            }
+
+
+
+            socket.on('datastream', (obj) => {
+
+                // Locate the vehicle from the received datapacket
+                const coordinates = getCoordinates(obj.data.gps);
+                console.log("Coordinates: ", coordinates)
+                if (!initialized) map = new google.maps.Map(document.getElementById('map'), { zoom: 15, center: coordinates });
+                initialized = true;
+
+                trackMarker(map, currentPositions, coordinates, obj);
+            });
+
+
+
+
+
+        }
+
+        function trackMarker(map, currentPositions, coordinates, vehicle) {
+            const image = "https://i.imgur.com/fUuiEys.png";
+            let found = currentPositions.find(elem => vehicle.vehicleName == elem.vehicleName);
+            if (!found) {
+
+                const marker = new google.maps.Marker({ position: coordinates, map: map, icon: image });
+
+                // Add click listener
+                google.maps.event.addListener(marker, 'click', () => {
+                    selectVehicle(vehicle);
+                    map.panTo(vehicle.coordinates);
+                });
+                currentPositions.push({ vehicleName: vehicle.vehicleName, data: vehicle.data, marker: marker });
+            } else {
+                try {
+
+                    // WARNING: Super ugly solution here: marker.setPosition(LatLng) was not working; the icon wasn't being shown.
+                    // This fix is very ugly, but I couldn't find other way.
+                    const latLng = new google.maps.LatLng(coordinates.lat, coordinates.lng);
+                    found.marker.setPosition(latLng);
+                    if(selectedVehicle == found.vehicleName){
+                        map.panTo(latLng);
+                        selectVehicle(found);
+                    }
+                }catch(err){
+                    console.log(err);
+                }
+            }
+        }
+
+        function selectVehicle(vehicle) {
+            selectedVehicle = vehicle.vehicleName;
+            document.getElementById("vehicle_id").value = vehicle.data._id;
+            document.getElementById("vehicle_energy").value = vehicle.data.energy;
+            document.getElementById("vehicle_speed").value = vehicle.data.speed;
+
+        }
+
+        async function getAPIData() {
+            const data = await (await fetch("http://localhost:8080/api/vehicle_data")).json();
+            return data;
+        }
+
+        function getCoordinates(gps) {
+            const [lat, lng] = gps.split("|");
+            return { lat: Number(lat), lng: Number(lng) };
+        }
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3ihh_qVdoBSVg6LpZoUAUsU_PBtqNZAI&callback=initMap"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <style>
+        .header {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: 24px;
+        }
+
+        #map {
+            margin: 25px;
+            height: 100%;
+            width: 100%;
+        }
+
+        #info-box {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            background-color: whitesmoke;
+            opacity: 0.9;
+            border-radius: 15px;
+            padding: 15px;
+            height: 25%;
+            width: 30%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="header">ViriCiti Test App</h1>
+    <div id="map"></div>
+    <div id="info-box">
+        <label for="vehicle_id">Vehicle ID: </label>
+        <input class="form-control" id="vehicle_id"><br>
+        <label for="vehicle_energy">Energy: </label>
+        <input class="form-control" id="vehicle_energy"><br>
+        <label for="vehicle_speed">Vehicle speed: </label><br>
+        <input class="form-control" id="vehicle_speed"><br>
+    </div>
+</body>
+
+</html>
